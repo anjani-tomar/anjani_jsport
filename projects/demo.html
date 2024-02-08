@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demoo.css">
+    <link rel="stylesheet" href="demo2.html">
+    <link rel="stylesheet" href="demo3.html">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- <form name="selectForm">
+        <label for="musicTypes">Choose some music types, then click the button below:</label
+        >
+        <select id="musicTypes" name="musicTypes" multiple>
+          <option selected>R&B</option>
+          <option>Jazz</option>
+          <option>Blues</option>
+          <option>New Age</option>
+          <option>Classical</option>
+          <option>Opera</option>
+        </select>
+        <button id="btn" type="button">How many are selected?</button>
+      </form> -->
+
+    <!-- <p id="demo"></p> -->
+
+    <div class="header">
+        <div class="dropdown">
+            <button class="dropbtn">Christmas Special</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home Page</a>
+                <a href="demo2.html">Home Page 1</a>
+                <a href="demo3.html">Home Page 2</a>
+            </div>
+        </div>
+    </div>
+    <h1 id="heading" class="h1 common_color">Coming Soon</h1>
+
+    <div>
+
+        <!-- *** CUSTOMIZE START  ***  -->
+        <div class="setting_box">
+            <div class="setting_icon" onclick="myFunction()">
+                <i id="myDIV" class="fa fa-times" aria-hidden="true"></i></div>
+            <div id="settings_div" class="settings_div" style="display: block;">
+                <div>
+                    <label for="gradient_color_one">Background Color</label>
+                    <input type="color" value="#000000" id="gradient_color_one">
+                    <input type="color" value="#b1a3a3" id="gradient_color_two">
+                </div>
+                <div>
+                    <label for="gradient_color_one">Text Box Color</label>
+                    <input type="color" value="#000000" id="text_box_gradient_color_one">
+                    <input type="color" value="#b1a3a3" id="text_box_gradient_color_two">
+                </div>
+                <div>
+                    <label for="text_color_one">Text Color</label>
+                    <input type="color" value="#ffffff" id="text_color_one">
+                </div>
+                <div>
+                    <label for="source">Heading</label>
+                    <input type="text" value="Coming Soon" id="source">
+                </div>
+                <div>
+                    <label for="spacing">Text Space</label>
+                    <input type="number" value="12" id="spacing">
+                </div>
+                <div>
+                    <label for="date-time">Set Time</label>
+                    <input type="datetime-local" value="" id="date-time">
+                </div>
+            </div>
+        </div>
+        <!-- *** CUSTOMIZE END  ***  -->
+
+        <!-- *** COUNTDOWN START  ***  -->
+        <div class="boxShadow">
+            <div id="countdown" class="countdown">
+                <div class="flipper">
+                    <div class="gear"></div>
+                    <div class="gear"></div>
+                    <div class="top">
+                        <div class="text">12</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="text">12</div>
+                    </div>
+                </div>
+                <div class="flipper">
+                    <div class="gear"></div>
+                    <div class="gear"></div>
+                    <div class="top">
+                        <div class="text">00</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="text">00</div>
+                    </div>
+                </div>
+                <div class="flipper">
+                    <div class="gear"></div>
+                    <div class="gear"></div>
+                    <div class="top">
+                        <div class="text">23</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="text">23</div>
+                    </div>
+                </div>
+                <div class="flipper">
+                    <div class="gear"></div>
+                    <div class="gear"></div>
+                    <div class="top">
+                        <div class="text">55</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="text">55</div>
+                    </div>
+                </div>
+                <div class="flipper">
+                    <div class="gear"></div>
+                    <div class="gear"></div>
+                    <div class="top">
+                        <div class="text">44</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="text">44</div>
+                    </div>
+                </div>
+            </div>
+            <div class="countdown bottom-div">
+                <div class="flipper_text">
+                    MONTHS
+                </div>
+                <div class="flipper_text">
+                    DAYS
+                </div>
+                <div class="flipper_text">
+                    HOURS
+                </div>
+                <div class="flipper_text">
+                    MINUTES
+                </div>
+                <div class="flipper_text">
+                    SECONDS
+                </div>
+            </div>
+        </div>
+        <!-- *** COUNTDOWN END  ***  -->
+
+        <!-- *** YOUR TEXT START ***  -->
+        <div class="subscription-box">
+            <div class="content flex">
+                <p class="common_color">We Are Currently Working On An Amazing Website.
+                    <br> Stay Tune.
+                </p>
+            </div>
+
+            <div id="subscribe" class="content flex">
+                <form method="POST" action="#">
+                    <p><input type="text" name="Email" size="20" value="" placeholder="Subscribe your e-mail Id"><input type="button" value="Submit" name="Submit"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- *** SUBSCRIBE END ***  -->
+    <!-- *** IMPORT JAVASCRIPT START ***  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- *** IMPORT JAVASCRIPT END ***  -->
+
+
+    <script src="first.js"></script>
+</body>
+
+</html>
